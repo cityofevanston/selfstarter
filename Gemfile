@@ -4,7 +4,6 @@ ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 gem 'json', '~> 1.7.7'
-gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 
 group :development do
