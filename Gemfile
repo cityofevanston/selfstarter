@@ -1,13 +1,14 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 gem 'json', '~> 1.7.7'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 
 group :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.7'
   gem 'pry-rails'
 end
 
@@ -21,7 +22,7 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '>= 2.1.1'
 end
 
 group :development, :test do
