@@ -16,10 +16,10 @@
   {
     #email
     {
-      padding: 15px;
-      border-radius: 10px;
+      padding: 0px;
+      border-radius: 0px;
       border: 1px solid #CCC;
-      width: 350px;
+      width: 0px;
       outline: none;
     }
     .invalid
@@ -221,10 +221,10 @@
 .sidebar
   {
   float: right;
-  width: 300px;
+  width: 200px;
   p
     {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 30px;
     line-height: 1.3;
   }
