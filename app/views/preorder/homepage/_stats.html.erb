@@ -43,7 +43,7 @@
     
     <% if Order.revenue.to_f < Order.goal.to_f %>
       <div id='progress_bg' class='small'>
-        <div id='progress' class='' style='width: <%= Order.percent %>%;'>
+        <div id='progress' class='' style='width: <%= 50% %>%;'>
         </div>
       </div>
     <% else %>

@@ -66,7 +66,7 @@ primary_stat_verb: 'backer'
 middle_reserve_text: "Donate Now"
 
 # When the project should end
-expiration_date: <%= Date.new(2013, 10, 10) %>
+expiration_date: <%= Date.new(2013, 9, 25) %>
 
 # Text to show inside the progress bar, when the goal reaches/exceeds 100%
 progress_text: "Success"
